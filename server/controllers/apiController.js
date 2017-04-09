@@ -59,7 +59,7 @@ function getOneGroup (req, res) {
   })
   .catch((err) => {
     console.error('[Error fetching group]')
-    res.status(501).send('[Error fetching group]', err)
+    res.status(501).send(err)
   })
 }
 

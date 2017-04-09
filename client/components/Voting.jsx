@@ -13,6 +13,15 @@ class Voting extends Component {
     }
     this.sendVotesServer = this.sendVotesServer.bind(this)
     this.checkClientVotingStatus = this.checkClientVotingStatus.bind(this)
+    this.setGroupName = this.setGroupName.bind(this)
+    this.setGroupName()
+  }
+
+  setGroupName () {
+    if (!sessionStorage.getItem(this.props.groupName)) {
+      console.log(this.props.groupName)
+      sessionStorage.setItem(sessionStorage.getItem('name'), this.props.yelpData)
+    }
   }
 
   nextBusinessStateChange (vote, id) {
