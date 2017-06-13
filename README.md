@@ -18,9 +18,13 @@ Planning dinner and drinks just became a little easier
 1. [Team](#team)
 1. [Contributing](#contributing)
 
+## Requirements
+- Node
+- NPM
+- [Yelp Fusion Credentials](https://www.yelp.com/developers/documentation/v3/get_started)
+
 ## Usage
 From within the root directory:
-
 ```
 npm install
 ```
@@ -29,14 +33,10 @@ npm install
 npm run build
 ```
 ### Start Server
+Server will start on PORT:3000 unless an environment variable has been set
 ```
 npm start
 ```
-
-## Requirements
-- Node
-- NPM
-- [Yelp Fusion Credentials](https://www.yelp.com/developers/documentation/v3/get_started)
 
 ## Development
 ### Installing Dependencies
@@ -46,10 +46,12 @@ From within the root directory:
 npm install
 ```
 ### Build Bundled Scripts
+Will watch for any changes in front-end code and rebuild scripts as necessary
 ```
 npm run build:watch
 ```
 ### Start Server
+Run a dev-server with Nodemon and restart server if any changes are detected on server code
 ```
 npm run start_dev
 ```
