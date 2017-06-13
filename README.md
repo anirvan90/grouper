@@ -1,6 +1,6 @@
 # Grüper
 
-> Makes choosing a restaurant with a group of people easy.
+Planning dinner and drinks just became a little easier
 
 ## Team
 
@@ -24,30 +24,9 @@
 >npm start
 
 ## Requirements
-
-- axios: ^0.15.3,
-- bcrypt-nodejs: 0.0.3,
-- body-parser: ^1.17.1,
-- css-loader: ^0.28.0,
-- express: ^4.15.2,
-- grommet: ^1.3.4,
-- jquery: ^3.2.1,
-- jwt-simple: ^0.5.1,
-- loadjs: ^3.5.0,
-- mongoose: ^4.9.2,
-- morgan: ^1.8.1,
-- node-sass: ^4.5.2,
-- pubnub: ^4.8.0,
-- react: ^15.5.4,
-- react-copy-to-clipboard: ^4.2.3,
-- react-countdown-clock: ^1.1.0,
-- react-dom: ^15.4.2,
-- react-router: ^4.0.0,
-- react-router-dom: ^4.0.0,
-- sass-loader: ^6.0.3,
-- style-loader: ^0.16.1,
-- underscore: ^1.8.3,
-- yelp-fusion: ^1.0.3
+- Node
+- NPM
+- [Yelp Fusion Credentials](https://www.yelp.com/developers/documentation/v3/get_started)
 
 ## Development
 - babel: ^6.23.0,
