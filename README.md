@@ -29,7 +29,7 @@ From within the root directory:
 ```
 npm install
 ```
-From within the server directory:
+From within the /server/config directory:
 
 Rename `config.example.js` to `config.js`
 In `config.js` add in YelpID and YelpSecret from your Yelp Fusion Dashboard
