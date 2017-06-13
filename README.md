@@ -24,10 +24,16 @@ Planning dinner and drinks just became a little easier
 - [Yelp Fusion Credentials](https://www.yelp.com/developers/documentation/v3/get_started)
 
 ## Usage
+### Installing Dependencies
 From within the root directory:
 ```
 npm install
 ```
+From within the server directory:
+
+Rename `config.example.js` to `config.js`
+In `config.js` add in YelpID and YelpSecret from your Yelp Fusion Dashboard
+
 ### Build Bundled Scripts
 ```
 npm run build
