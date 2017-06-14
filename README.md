@@ -2,6 +2,8 @@
 
 Planning dinner and drinks just became a little easier
 
+ 
+
 ## Team
 
   - Product Owner: Erik Thompson
@@ -64,7 +66,6 @@ npm run start_dev
 ```
 ### Roadmap
 View the project roadmap [here](https://waffle.io/commandQ/grouper)
-
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
