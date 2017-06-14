@@ -32,7 +32,8 @@ npm install
 From within the /server/config directory:
 
 Rename `config.example.js` to `config.js`
-In `config.js` add in YelpID and YelpSecret from your Yelp Fusion Dashboard
+In `config.js` add in Yelp App ID and Yelp App Secret from your Yelp Fusion Dashboard
+Also add in a unique auth secret
 
 ### Build Bundled Scripts
 ```
