@@ -20,8 +20,8 @@ Vote on places with your friends and Grüper will tell you where you're going!
 
 ## Team
 
-  - Product Owner: Erik Thompson
-  - Scrum Master: Anirvan Awatramani
+  - Product Owner: Anirvan Awatramani
+  - Scrum Master: Erik Thompson
   - Development Team Members: Aidan Bane, Richard Hertzog
 
 ## Table of Contents
